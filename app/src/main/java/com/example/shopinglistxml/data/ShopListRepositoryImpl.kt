@@ -10,7 +10,7 @@ object ShopListRepositoryImpl: ShopListRepository {
     private val shopListLiveData = MutableLiveData<List<ShopItem>>()
     private var autoIncrementIt = 0
     init{
-        for(i in 0 until 10){
+        for(i in 0 until 1000){
             val item = ShopItem("Name $i", i, true)
             putItem(item)
         }
