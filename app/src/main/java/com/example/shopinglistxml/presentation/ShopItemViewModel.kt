@@ -6,7 +6,6 @@ import androidx.lifecycle.ViewModel
 import com.example.shopinglistxml.data.ShopListRepositoryImpl
 import com.example.shopinglistxml.domain.ChangeItemOnShopList
 import com.example.shopinglistxml.domain.GetShopItemUseCase
-import com.example.shopinglistxml.domain.GetShopListUseCase
 import com.example.shopinglistxml.domain.PutItemToShopList
 import com.example.shopinglistxml.domain.ShopItem
 
